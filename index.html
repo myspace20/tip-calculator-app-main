@@ -29,12 +29,11 @@
           <div class="tip">
             <h3>Select Tip &percnt;</h3>
             <div class="buttons">
-              <input type="button" value="0.5" name="five">
-              <button value=".05" type="button" name="five">5%</button>
-              <button value="0.1" name="ten" type="button">10%</button>
-              <button value="0.15" name="fifteen" type="button">15%</button>
-              <button value="0.25" name="tweentyFive" type="button">25%</button>
-              <button value="0.5" name="fifty" type="button">50%</button>
+              <button value=".05" type="button" name="five" class="btn">5%</button>
+              <button value="0.1" name="ten" type="button" class="btn">10%</button>
+              <button value="0.15" name="fifteen" type="button" class="btn">15%</button>
+              <button value="0.25" name="tweentyFive" type="button" class="btn">25%</button>
+              <button value="0.5" name="fifty" type="button" class="btn fifty">50%</button>
               <input type="text" name="custom" placeholder="Custom" id="custom">
             </div>
           </div>  
@@ -47,15 +46,15 @@
         <div class="second-section">
               <div class="tip-amount">
                 <h3>Tip Amount <br>/ person</h3>
-                <span>400</span>
+                <span class="tipPerhead">$0.00</span>
               </div>
               <div class="total">
                 <h3>Total <br>/ person</h3>
-                <span>400</span>
+                <span>$0.00</span>
               </div>
-              <button type="reset">RESET</button>
+              <button type="reset" class="reset reset-button">RESET</button>
         </div>
-    </form>
+      </form>
   </div>
   <script src="app.js"></script>
   <div class="attribution">
