@@ -76,7 +76,7 @@ button.addEventListener('click', e=>{
 custom.addEventListener('keyup', e =>{
     customValue = e.target.value / 100
     tipAmount = billvalue * customValue
-    console.log(tipAmount)
+    
 })
 
 people.addEventListener('keyup', e =>{
@@ -84,13 +84,13 @@ people.addEventListener('keyup', e =>{
     numberPeople = e.target.value
     const tipDisplay = document.querySelector('.tip-amount span')
     const totalDisplay = document.querySelector('.total span')
-    tipPersonValue = (tipAmount / numberPeople).toFixed(1)
+    tipPersonValue = (tipAmount / numberPeople)
     
-    total = (parseFloat(billvalue) + parseFloat(tipAmount)).toFixed(1)
+    total = (parseFloat(billvalue) + parseFloat(tipAmount))
     const totalPerson = total/ numberPeople
     if(totalPerson && numberPeople){
-        totalDisplay.innerText = `$ ${totalPerson}`
-        tipDisplay.innerText =`$ ${tipPersonValue}`
+        totalDisplay.innerText = `$ ${totalPerson.toFixed(2)}`
+        tipDisplay.innerText =`$ ${tipPersonValue.toFixed(2)}`
     }
 
     if(numberPeople === 0){

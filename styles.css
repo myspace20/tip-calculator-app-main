@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto Mono;
+    font-family: Space Mono;
   }
   .container{
    width: 100%;
@@ -187,9 +187,9 @@
     color:hsl(185, 41%, 84%) ;
   }
   .tip-amount span{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
-    color: hsl(185, 41%, 84%);
+    color: hsl(184, 14%, 56%);
   }
   .total{
     display: flex;
@@ -197,10 +197,9 @@
     align-items: center;
   }
   .total span{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
-    color: hsl(185, 41%, 84%);
-    font-style: bold;
+    color: hsl(184, 14%, 56%);
   }
   .total h3{
     color:hsl(185, 41%, 84%) ;
@@ -216,6 +215,18 @@
 
     .second-section button{
       margin-top: 100px;
+    }
+
+    .tip-amount span{
+      font-size: 50px;
+      font-weight: 700;
+      color: hsl(184, 14%, 56%);
+    }
+
+    .total span{
+      font-size: 50px;
+      font-weight: 700;
+      color: hsl(184, 14%, 56%);
     }
     
     .buttons{
