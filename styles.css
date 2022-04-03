@@ -23,6 +23,10 @@
     
   }
 
+  .form input:focus{
+    outline-color: red;
+  }
+
   .image{
     text-align: center;
   }
@@ -66,12 +70,15 @@
     padding: 5px;
     font-size: 25px;
     text-align: end;
-    outline: none;
     background-color:hsl(189, 41%, 97%);
     border: 1px solid hsl(189, 41%, 97%);
     color: hsl(183, 100%, 15%);
     font-weight: 700;
     border-radius: 5px;
+  }
+
+  .bill input:focus{
+    outline: 3px solid hsl(185, 41%, 84%);
   }
   h3{
     margin: 10px 0px;
@@ -101,13 +108,17 @@
   .buttons input{
     font-size: 25px;
     text-align: end;
-    outline: none;
     background-color:hsl(189, 41%, 97%);
     border: 1px solid hsl(189, 41%, 97%);
     color: hsl(183, 100%, 15%);
     font-weight: 700;
     
   }
+
+  .buttons input:focus{
+    outline: 3px solid hsl(185, 41%, 84%);
+  }
+
   .people {
     position: relative;
     padding: 12px 0px;
@@ -117,12 +128,15 @@
     padding: 5px;
     font-size: 25px;
     text-align: end;
-    outline: none;
     background-color:hsl(189, 41%, 97%);
     border: 1px solid hsl(189, 41%, 97%);
     color: hsl(183, 100%, 15%);
     font-weight: 700;
     border-radius: 5px;
+  }
+
+  .people input:focus{
+    outline: 3px solid hsl(185, 41%, 84%);
   }
   .people img{
     position: absolute;
